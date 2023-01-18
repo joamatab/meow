@@ -1,0 +1,938 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index &#8212; meow 0.0.0 documentation</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/plot_directive.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/autodoc_pydantic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/_static/css/custom.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <link rel="index" title="Index" href="#" />
+    <link rel="search" title="Search" href="search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/meow.png" class="logo" alt="logo">
+      
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Home
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   meow
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Examples
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="examples/00_introduction.html">
+   Quick Start
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="examples/01_gds_taper.html">
+   GDS Taper
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Api Docs
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="meow.html">
+   meow package
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="meow.eme.html">
+     meow.eme package
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="meow.fde.html">
+     meow.fde package
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/flaport/meow"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/flaport/meow/issues/new?title=Issue%20on%20page%20%2Fgenindex.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1></h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+
+<h1 id="index">Index</h1>
+
+<div class="genindex-jumpbox">
+ <a href="#_"><strong>_</strong></a>
+ | <a href="#A"><strong>A</strong></a>
+ | <a href="#B"><strong>B</strong></a>
+ | <a href="#C"><strong>C</strong></a>
+ | <a href="#D"><strong>D</strong></a>
+ | <a href="#E"><strong>E</strong></a>
+ | <a href="#F"><strong>F</strong></a>
+ | <a href="#G"><strong>G</strong></a>
+ | <a href="#H"><strong>H</strong></a>
+ | <a href="#I"><strong>I</strong></a>
+ | <a href="#L"><strong>L</strong></a>
+ | <a href="#M"><strong>M</strong></a>
+ | <a href="#N"><strong>N</strong></a>
+ | <a href="#P"><strong>P</strong></a>
+ | <a href="#S"><strong>S</strong></a>
+ | <a href="#T"><strong>T</strong></a>
+ | <a href="#V"><strong>V</strong></a>
+ | <a href="#W"><strong>W</strong></a>
+ | <a href="#X"><strong>X</strong></a>
+ | <a href="#Y"><strong>Y</strong></a>
+ | <a href="#Z"><strong>Z</strong></a>
+ 
+</div>
+<h2 id="_">_</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.base_model.BaseModel.__init__">__init__() (BaseModel method)</a>
+
+      <ul>
+        <li><a href="meow.html#meow.cell.Cell.__init__">(Cell method)</a>
+</li>
+        <li><a href="meow.html#meow.cross_section.CrossSection.__init__">(CrossSection method)</a>
+</li>
+        <li><a href="meow.html#meow.materials.Material.__init__">(Material method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="A">A</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mesh.Mesh2d.angle_phi">angle_phi (Mesh2d attribute)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mesh.Mesh2d.angle_theta">angle_theta (Mesh2d attribute)</a>
+</li>
+      <li><a href="meow.html#meow.geometries.Prism.axis">axis (Prism attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="B">B</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mesh.Mesh2d.bend_axis">bend_axis (Mesh2d attribute)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mesh.Mesh2d.bend_radius">bend_radius (Mesh2d attribute)</a>
+</li>
+      <li><a href="meow.html#meow.gds_structures.GdsExtrusionRule.buffer">buffer (GdsExtrusionRule attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="C">C</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.cache.cache_array">cache_array() (in module meow.cache)</a>
+</li>
+      <li><a href="meow.html#meow.cache.cache_model">cache_model() (in module meow.cache)</a>
+</li>
+      <li><a href="meow.html#meow.cross_section.CrossSection.cell">cell (CrossSection attribute)</a>
+
+      <ul>
+        <li><a href="meow.html#meow.mode.Mode.cell">(Mode property)</a>
+</li>
+      </ul></li>
+      <li><a href="meow.eme.html#meow.eme.common.compute_interface_s_matrices">compute_interface_s_matrices() (in module meow.eme.common)</a>
+</li>
+      <li><a href="meow.eme.html#meow.eme.common.compute_interface_s_matrix">compute_interface_s_matrix() (in module meow.eme.common)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.fde.html#meow.fde.lumerical.compute_modes_lumerical">compute_modes_lumerical() (in module meow.fde.lumerical)</a>
+</li>
+      <li><a href="meow.fde.html#meow.fde.tidy3d.compute_modes_tidy3d">compute_modes_tidy3d() (in module meow.fde.tidy3d)</a>
+</li>
+      <li><a href="meow.eme.html#meow.eme.common.compute_propagation_s_matrices">compute_propagation_s_matrices() (in module meow.eme.common)</a>
+</li>
+      <li><a href="meow.eme.html#meow.eme.common.compute_propagation_s_matrix">compute_propagation_s_matrix() (in module meow.eme.common)</a>
+</li>
+      <li><a href="meow.eme.html#meow.eme.sax.compute_s_matrix_sax">compute_s_matrix_sax() (in module meow.eme.sax)</a>
+</li>
+      <li><a href="meow.html#meow.cell.create_cells">create_cells() (in module meow.cell)</a>
+</li>
+      <li><a href="meow.html#meow.mode.Mode.cs">cs (Mode attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="D">D</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.cache.disable_cache">disable_cache() (in module meow.cache)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mesh.Mesh2d.dx">dx (Mesh2d property)</a>
+</li>
+      <li><a href="meow.html#meow.mesh.Mesh2d.dy">dy (Mesh2d property)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="E">E</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mode.electric_energy">electric_energy() (in module meow.mode)</a>
+</li>
+      <li><a href="meow.html#meow.mode.electric_energy_density">electric_energy_density() (in module meow.mode)</a>
+</li>
+      <li><a href="meow.html#meow.cache.empty_cache">empty_cache() (in module meow.cache)</a>
+</li>
+      <li><a href="meow.html#meow.cache.enable_cache">enable_cache() (in module meow.cache)</a>
+</li>
+      <li><a href="meow.html#meow.mode.energy">energy() (in module meow.mode)</a>
+</li>
+      <li><a href="meow.html#meow.mode.energy_density">energy_density() (in module meow.mode)</a>
+</li>
+      <li><a href="meow.html#meow.cross_section.CrossSection.env">env (CrossSection attribute)</a>
+
+      <ul>
+        <li><a href="meow.html#meow.mode.Mode.env">(Mode property)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mode.Mode.Ex">Ex (Mode attribute)</a>
+</li>
+      <li><a href="meow.html#meow.cell.Cell.extra">extra (Cell attribute)</a>
+
+      <ul>
+        <li><a href="meow.html#meow.cross_section.CrossSection.extra">(CrossSection attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="meow.html#meow.gds_structures.extrude_gds">extrude_gds() (in module meow.gds_structures)</a>
+</li>
+      <li><a href="meow.html#meow.mode.Mode.Ey">Ey (Mode attribute)</a>
+</li>
+      <li><a href="meow.html#meow.mode.Mode.Ez">Ez (Mode attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="F">F</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.materials.Material.from_df">from_df() (Material class method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.materials.Material.from_path">from_path() (Material class method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="G">G</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.structures.Structure.geometry">geometry (Structure attribute)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.fde.html#meow.fde.lumerical.get_sim">get_sim() (in module meow.fde.lumerical)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="H">H</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.gds_structures.GdsExtrusionRule.h_max">h_max (GdsExtrusionRule attribute)</a>
+
+      <ul>
+        <li><a href="meow.html#meow.geometries.Prism.h_max">(Prism attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="meow.html#meow.gds_structures.GdsExtrusionRule.h_min">h_min (GdsExtrusionRule attribute)</a>
+
+      <ul>
+        <li><a href="meow.html#meow.geometries.Prism.h_min">(Prism attribute)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mode.Mode.Hx">Hx (Mode attribute)</a>
+</li>
+      <li><a href="meow.html#meow.mode.Mode.Hy">Hy (Mode attribute)</a>
+</li>
+      <li><a href="meow.html#meow.mode.Mode.Hz">Hz (Mode attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="I">I</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mode.inner_product">inner_product() (in module meow.mode)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mode.invert_mode">invert_mode() (in module meow.mode)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="L">L</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.cell.Cell.length">length (Cell property)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mode.Mode.load">load() (Mode class method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="M">M</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mode.magnetic_energy">magnetic_energy() (in module meow.mode)</a>
+</li>
+      <li><a href="meow.html#meow.mode.magnetic_energy_density">magnetic_energy_density() (in module meow.mode)</a>
+</li>
+      <li><a href="meow.html#meow.gds_structures.GdsExtrusionRule.material">material (GdsExtrusionRule attribute)</a>
+
+      <ul>
+        <li><a href="meow.html#meow.structures.Structure.material">(Structure attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="meow.html#meow.cell.Cell.materials">materials (Cell property)</a>
+</li>
+      <li>
+    meow
+
+      <ul>
+        <li><a href="meow.html#module-meow">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.base_model
+
+      <ul>
+        <li><a href="meow.html#module-meow.base_model">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.cache
+
+      <ul>
+        <li><a href="meow.html#module-meow.cache">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.cell
+
+      <ul>
+        <li><a href="meow.html#module-meow.cell">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.cross_section
+
+      <ul>
+        <li><a href="meow.html#module-meow.cross_section">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.eme
+
+      <ul>
+        <li><a href="meow.eme.html#module-meow.eme">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.eme.common
+
+      <ul>
+        <li><a href="meow.eme.html#module-meow.eme.common">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.eme.sax
+
+      <ul>
+        <li><a href="meow.eme.html#module-meow.eme.sax">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.environment
+
+      <ul>
+        <li><a href="meow.html#module-meow.environment">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.fde
+
+      <ul>
+        <li><a href="meow.fde.html#module-meow.fde">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.fde.lumerical
+
+      <ul>
+        <li><a href="meow.fde.html#module-meow.fde.lumerical">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.fde.tidy3d
+
+      <ul>
+        <li><a href="meow.fde.html#module-meow.fde.tidy3d">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.gds_structures
+
+      <ul>
+        <li><a href="meow.html#module-meow.gds_structures">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.geometries
+
+      <ul>
+        <li><a href="meow.html#module-meow.geometries">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.materials
+
+      <ul>
+        <li><a href="meow.html#module-meow.materials">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.mesh
+
+      <ul>
+        <li><a href="meow.html#module-meow.mesh">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    meow.mode
+
+      <ul>
+        <li><a href="meow.html#module-meow.mode">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.structures
+
+      <ul>
+        <li><a href="meow.html#module-meow.structures">module</a>
+</li>
+      </ul></li>
+      <li>
+    meow.visualize
+
+      <ul>
+        <li><a href="meow.html#module-meow.visualize">module</a>
+</li>
+      </ul></li>
+      <li><a href="meow.html#meow.cell.Cell.mesh">mesh (Cell attribute)</a>
+
+      <ul>
+        <li><a href="meow.html#meow.cross_section.CrossSection.mesh">(CrossSection property)</a>
+</li>
+        <li><a href="meow.html#meow.mode.Mode.mesh">(Mode property)</a>
+</li>
+      </ul></li>
+      <li><a href="meow.html#meow.gds_structures.GdsExtrusionRule.mesh_order">mesh_order (GdsExtrusionRule attribute)</a>
+
+      <ul>
+        <li><a href="meow.html#meow.structures.Structure.mesh_order">(Structure attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="meow.html#meow.materials.Material.meta">meta (Material attribute)</a>
+</li>
+      <li>
+    module
+
+      <ul>
+        <li><a href="meow.html#module-meow">meow</a>
+</li>
+        <li><a href="meow.html#module-meow.base_model">meow.base_model</a>
+</li>
+        <li><a href="meow.html#module-meow.cache">meow.cache</a>
+</li>
+        <li><a href="meow.html#module-meow.cell">meow.cell</a>
+</li>
+        <li><a href="meow.html#module-meow.cross_section">meow.cross_section</a>
+</li>
+        <li><a href="meow.eme.html#module-meow.eme">meow.eme</a>
+</li>
+        <li><a href="meow.eme.html#module-meow.eme.common">meow.eme.common</a>
+</li>
+        <li><a href="meow.eme.html#module-meow.eme.sax">meow.eme.sax</a>
+</li>
+        <li><a href="meow.html#module-meow.environment">meow.environment</a>
+</li>
+        <li><a href="meow.fde.html#module-meow.fde">meow.fde</a>
+</li>
+        <li><a href="meow.fde.html#module-meow.fde.lumerical">meow.fde.lumerical</a>
+</li>
+        <li><a href="meow.fde.html#module-meow.fde.tidy3d">meow.fde.tidy3d</a>
+</li>
+        <li><a href="meow.html#module-meow.gds_structures">meow.gds_structures</a>
+</li>
+        <li><a href="meow.html#module-meow.geometries">meow.geometries</a>
+</li>
+        <li><a href="meow.html#module-meow.materials">meow.materials</a>
+</li>
+        <li><a href="meow.html#module-meow.mesh">meow.mesh</a>
+</li>
+        <li><a href="meow.html#module-meow.mode">meow.mode</a>
+</li>
+        <li><a href="meow.html#module-meow.structures">meow.structures</a>
+</li>
+        <li><a href="meow.html#module-meow.visualize">meow.visualize</a>
+</li>
+      </ul></li>
+      <li><a href="meow.html#meow.cell.Cell.mx">mx (Cell property)</a>
+</li>
+      <li><a href="meow.html#meow.cell.Cell.my">my (Cell property)</a>
+</li>
+      <li><a href="meow.html#meow.cell.Cell.mz">mz (Cell property)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="N">N</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.materials.Material.n">n (Material attribute)</a>
+</li>
+      <li><a href="meow.html#meow.materials.Material.name">name (Material attribute)</a>
+</li>
+      <li><a href="meow.html#meow.mode.Mode.neff">neff (Mode attribute)</a>
+</li>
+      <li><a href="meow.html#meow.mode.normalize_energy">normalize_energy() (in module meow.mode)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mode.normalize_product">normalize_product() (in module meow.mode)</a>
+</li>
+      <li><a href="meow.html#meow.mesh.Mesh2d.num_pml">num_pml (Mesh2d attribute)</a>
+</li>
+      <li><a href="meow.html#meow.cross_section.CrossSection.nx">nx (CrossSection property)</a>
+</li>
+      <li><a href="meow.html#meow.cross_section.CrossSection.ny">ny (CrossSection property)</a>
+</li>
+      <li><a href="meow.html#meow.cross_section.CrossSection.nz">nz (CrossSection property)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="P">P</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.materials.Material.params">params (Material attribute)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.geometries.Prism.poly">poly (Prism attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="S">S</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mode.Mode.save">save() (Mode method)</a>
+</li>
+      <li><a href="meow.eme.html#meow.eme.common.select_ports">select_ports() (in module meow.eme.common)</a>
+</li>
+      <li><a href="meow.fde.html#meow.fde.lumerical.set_sim">set_sim() (in module meow.fde.lumerical)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.structures.sort_structures">sort_structures() (in module meow.structures)</a>
+</li>
+      <li><a href="meow.html#meow.cell.Cell.structures">structures (Cell attribute)</a>
+
+      <ul>
+        <li><a href="meow.html#meow.cross_section.CrossSection.structures">(CrossSection property)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="T">T</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.environment.Environment.T">T (Environment attribute)</a>
+</li>
+      <li><a href="meow.html#meow.mode.Mode.te_fraction">te_fraction (Mode property)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mode.te_fraction">te_fraction() (in module meow.mode)</a>
+</li>
+      <li><a href="meow.html#meow.geometries.Geometry.type">type (Geometry attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="V">V</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.visualize.vis">vis() (in module meow.visualize)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.visualize.visualize">visualize() (in module meow.visualize)</a>
+</li>
+      <li><a href="meow.html#meow.structures.visualize_structures">visualize_structures() (in module meow.structures)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="W">W</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.environment.Environment.wl">wl (Environment attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="X">X</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mesh.Mesh2d.x">x (Mesh2d attribute)</a>
+</li>
+      <li><a href="meow.html#meow.mesh.Mesh2d.X">X (Mesh2d property)</a>
+</li>
+      <li><a href="meow.html#meow.mesh.Mesh2d.x_">x_ (Mesh2d property)</a>
+</li>
+      <li><a href="meow.html#meow.geometries.Box.x_max">x_max (Box attribute)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.geometries.Box.x_min">x_min (Box attribute)</a>
+</li>
+      <li><a href="meow.html#meow.mesh.Mesh2d.Xx">Xx (Mesh2d property)</a>
+</li>
+      <li><a href="meow.html#meow.mesh.Mesh2d.Xy">Xy (Mesh2d property)</a>
+</li>
+      <li><a href="meow.html#meow.mesh.Mesh2d.Xz">Xz (Mesh2d property)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="Y">Y</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.mesh.Mesh2d.y">y (Mesh2d attribute)</a>
+</li>
+      <li><a href="meow.html#meow.mesh.Mesh2d.Y">Y (Mesh2d property)</a>
+</li>
+      <li><a href="meow.html#meow.mesh.Mesh2d.y_">y_ (Mesh2d property)</a>
+</li>
+      <li><a href="meow.html#meow.geometries.Box.y_max">y_max (Box attribute)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.geometries.Box.y_min">y_min (Box attribute)</a>
+</li>
+      <li><a href="meow.html#meow.mesh.Mesh2d.Yx">Yx (Mesh2d property)</a>
+</li>
+      <li><a href="meow.html#meow.mesh.Mesh2d.Yy">Yy (Mesh2d property)</a>
+</li>
+      <li><a href="meow.html#meow.mesh.Mesh2d.Yz">Yz (Mesh2d property)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="Z">Z</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.cell.Cell.z">z (Cell property)</a>
+</li>
+      <li><a href="meow.html#meow.geometries.Box.z_max">z_max (Box attribute)</a>
+
+      <ul>
+        <li><a href="meow.html#meow.cell.Cell.z_max">(Cell attribute)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="meow.html#meow.geometries.Box.z_min">z_min (Box attribute)</a>
+
+      <ul>
+        <li><a href="meow.html#meow.cell.Cell.z_min">(Cell attribute)</a>
+</li>
+      </ul></li>
+      <li><a href="meow.html#meow.mode.zero_phase">zero_phase() (in module meow.mode)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Floris Laporte<br/>
+  
+      &copy; Copyright 2022, Apache2.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
